@@ -9,7 +9,7 @@
   "soil_longevity": 2,
   "leaves_properties": "dtbeachparty:palm",
   "growth_logic_kit": {
-    "name": "dtbeachparty:crooked_palm",
+    "name": "dtaddon_lib:crooked_palm",
     "properties": {
       "turning_height": 4
     }
@@ -43,7 +43,7 @@
   "drop_seeds": false,
   "features": [
     {
-      "name": "dtbeachparty:palm_fruit",
+      "name": "dtaddon_lib:palm_fruit",
       "properties": {
         "pod": "dtbeachparty:coconut",
         "fruiting_radius": 5

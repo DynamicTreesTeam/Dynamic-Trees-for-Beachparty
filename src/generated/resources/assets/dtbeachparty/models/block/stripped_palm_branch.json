@@ -1,0 +1,7 @@
+{
+  "loader": "dynamictrees:branch",
+  "textures": {
+    "bark": "beachparty:block/palm_log_stripped",
+    "rings": "beachparty:block/palm_log_top_stripped"
+  }
+}

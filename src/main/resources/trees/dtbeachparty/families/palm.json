@@ -1,10 +1,16 @@
 {
-    "type": "dtbeachparty:crooked_palm",
+    "type": "dtaddon_lib:diagonal_palm",
     "common_species":"dtbeachparty:palm",
     "common_leaves":"dtbeachparty:palm",
     "primitive_log":"beachparty:palm_log",
     "primitive_stripped_log":"beachparty:stripped_palm_log",
     "max_branch_radius":12,
     "primary_thickness": 3,
-    "secondary_thickness": 4
+    "secondary_thickness": 4,
+    "texture_overrides": {
+        "branch": "beachparty:block/palm_log_side",
+        "branch_top": "beachparty:block/palm_log_top",
+        "stripped_branch": "beachparty:block/palm_log_stripped",
+        "stripped_branch_top": "beachparty:block/palm_log_top_stripped"
+    }
 }

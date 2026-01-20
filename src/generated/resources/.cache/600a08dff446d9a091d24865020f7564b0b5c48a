@@ -1,0 +1,11 @@
+// 1.20.1	2026-01-20T19:24:35.084422858	Block States: dtbeachparty
+09a9755a66fefb3f4322ae5b5e6ee5237fef5172 assets/dtbeachparty/blockstates/palm_branch.json
+bdc1303982f20017c787d17e092d914c34e0697c assets/dtbeachparty/blockstates/palm_leaves.json
+c3e81ad0adaf46e242fa84e213c8027b197298fa assets/dtbeachparty/blockstates/palm_sapling.json
+6ffeaebb3583caa9c45d15e47e69f8badd1ae6f0 assets/dtbeachparty/blockstates/stripped_palm_branch.json
+d7fba1ced8b71cd80de2ae2e7fcda297eddd859a assets/dtbeachparty/models/block/palm_branch.json
+2eaea294435dae8750ffc3f57d9b37a57295fea6 assets/dtbeachparty/models/block/palm_leaves/palm_core_bottom.json
+2d8841ec4dac556f3a863476033711164ddc7d9c assets/dtbeachparty/models/block/palm_leaves/palm_core_top.json
+633edb866b199dfd0c17cf0bf9fdc6b523b3e2fa assets/dtbeachparty/models/block/palm_leaves/palm_frond.json
+a2a53f577d7d70bfb75cc626f269116d352c3bac assets/dtbeachparty/models/block/saplings/palm.json
+a2c68f93c0d350027afe3b454a96f7e080702d41 assets/dtbeachparty/models/block/stripped_palm_branch.json

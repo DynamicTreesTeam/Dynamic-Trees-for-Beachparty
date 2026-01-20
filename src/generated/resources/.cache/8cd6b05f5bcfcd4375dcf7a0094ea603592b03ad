@@ -1,0 +1,5 @@
+// 1.20.1	2026-01-20T19:24:35.087417193	dtbeachparty DT Block Tags
+08c10044f0b3f43afe77972e04d244a805272087 data/dynamictrees/tags/blocks/branches_that_burn.json
+24c6c3286ee04398403f242e46f13252e7ee4bc8 data/dynamictrees/tags/blocks/leaves.json
+ab70438b01db7a84553a171ecc43d9a3eb38de0b data/dynamictrees/tags/blocks/saplings.json
+05c6abd90b0ed20e65ada9541518728386fdb800 data/dynamictrees/tags/blocks/stripped_branches_that_burn.json

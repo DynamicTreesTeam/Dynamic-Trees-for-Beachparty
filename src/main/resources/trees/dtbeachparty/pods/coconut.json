@@ -1,5 +1,5 @@
 {
-  "type": "dtbeachparty:falling_palm",
+  "type": "dtaddon_lib:falling_palm",
   "item_stack": "beachparty:coconut",
   "max_age": 3,
   "block_shapes": {

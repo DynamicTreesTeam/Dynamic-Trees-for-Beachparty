@@ -1,6 +1,0 @@
-{
-    "loader":"dynamictrees:surface_root",
-    "textures":{
-        "bark":"beachparty:block/palm_log_side"
-    }
-}

@@ -1,0 +1,8 @@
+{
+  "parent": "dynamictrees:block/smartmodel/sapling",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "leaves": "beachparty:block/palm_leaves",
+    "log": "beachparty:block/palm_log_side"
+  }
+}

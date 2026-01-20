@@ -1,0 +1,7 @@
+// 1.20.1	2026-01-20T19:24:35.088087702	Loot Tables
+f924b8a6334cb9ba133e6bcda601301ced3ba1fb data/dtbeachparty/loot_tables/blocks/coconut.json
+b04b81b121af858f66a6ff53f9a6bde6cc94992a data/dtbeachparty/loot_tables/blocks/palm_leaves.json
+3678518b9886b0a18b6f0f64060e473fa750a7d7 data/dtbeachparty/loot_tables/trees/branches/palm.json
+ac8d1494181e7a5adc134b35a5ee7a70cec14b1b data/dtbeachparty/loot_tables/trees/branches/stripped_palm.json
+6a56a40b62dd510a2314f155966689d96f2951e1 data/dtbeachparty/loot_tables/trees/leaves/palm.json
+8c3da8cb6f3323ad6f5866ee3f3927b9813ffa31 data/dtbeachparty/loot_tables/trees/voluntary/palm.json
