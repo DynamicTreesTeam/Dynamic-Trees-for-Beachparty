@@ -7,6 +7,7 @@ import java.time.Instant
 import java.time.format.DateTimeFormatter
 
 fun property(key: String) = project.findProperty(key).toString()
+fun optionalProperty(key: String) = project.findProperty(key)?.toString()
 
 apply(from = "https://gist.githubusercontent.com/Harleyoc1/4d23d4e991e868d98d548ac55832381e/raw/applesiliconfg.gradle")
 
@@ -138,6 +139,36 @@ publishing {
     }
     repositories {
         maven("file:///${project.projectDir}/mcmodsrepo")
+    }
+}
+
+val changelogFile = file("build/changelog.txt")
+
+curseforge {
+    val curseApiKey = optionalProperty("curseApiKey") ?: System.getenv("CURSEFORGE_API_KEY")
+    if (curseApiKey == null) {
+        project.logger.warn("API Key for CurseForge not detected; uploading will be disabled.")
+        return@curseforge
+    }
+
+    apiKey = curseApiKey
+
+    project {
+        id = "1037944"
+
+        addGameVersion(mcVersion)
+
+        changelog = changelogFile
+        changelogType = "markdown"
+        releaseType = optionalProperty("curseFileType") ?: "release"
+
+        addArtifact(tasks.findByName("sourcesJar"))
+
+        mainArtifact(tasks.findByName("jar")) {
+            relations {
+                optionalDependency("dynamictreesplus")
+            }
+        }
     }
 }
 
