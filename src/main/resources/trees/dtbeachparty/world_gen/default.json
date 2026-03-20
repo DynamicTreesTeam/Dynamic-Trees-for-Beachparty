@@ -1,13 +1,12 @@
 [
   {
-    "select": {
-      "name": "minecraft:beach"
-    },
+    "select": { "tags" : ["#minecraft:is_beach", "!#forge:is_snowy"] },
     "apply": {
       "species": {
+        "method" : "splice_before",
         "random": {
           "dtbeachparty:palm": 1,
-          "...": 5
+          "...": 8
         }
       },
       "density": [1],
