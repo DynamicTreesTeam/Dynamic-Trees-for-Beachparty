@@ -1,4 +1,6 @@
 {
+    "death.attack.dtbeachparty.falling_fruit.coconut": "%1$s was bonked in the head by a falling Coconut",
+    "subtitle.dtbeachparty.falling_fruit.bonk": "Player bonked by fruit",
     "block.dtbeachparty.palm_branch":"Coconut Palm Tree",
     "block.dtbeachparty.palm_sapling":"Coconut Palm Sapling",
     "item.dtbeachparty.palm_seed":"Germinated Coconut",

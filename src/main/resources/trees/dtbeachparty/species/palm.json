@@ -28,10 +28,9 @@
     "sand_like"
   ],
   "primitive_saplings": [
-    "beachparty:palm_sapling",
+    "beachparty:palm_sprout",
     {
-      "sapling_item": "beachparty:coconut",
-      "can_craft_seed_to_sapling": false,
+      "can_craft_seed_to_sapling": true,
       "sapling_to_seed_extra_ingredient": "bone_meal"
     }
   ],

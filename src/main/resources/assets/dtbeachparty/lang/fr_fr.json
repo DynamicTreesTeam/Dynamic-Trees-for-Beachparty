@@ -1,4 +1,6 @@
 {
+    "death.attack.dtbeachparty.falling_fruit.coconut": "%1$s a été assommé par une noix de coco",
+    "subtitle.dtbeachparty.falling_fruit.bonk": "Joueur frappé par un fruit",
     "block.dtbeachparty.palm_branch":"Cocotier",
     "block.dtbeachparty.palm_sapling":"Pousse de cocotier",
     "item.dtbeachparty.palm_seed":"Noix de coco germée",

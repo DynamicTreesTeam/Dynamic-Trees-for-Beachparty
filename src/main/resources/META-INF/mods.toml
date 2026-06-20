@@ -39,7 +39,7 @@ Adds Dynamic Trees compatibility for Beachparty.
 [[dependencies.dtbeachparty]]
     modId="dtaddon_lib"
     mandatory=true
-    versionRange="[0.1.0-BETA2,)"
+    versionRange="[0.1.0-BETA5,)"
     ordering="AFTER"
     side="BOTH"
 
